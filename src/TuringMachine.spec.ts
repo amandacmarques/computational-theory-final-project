@@ -20,15 +20,4 @@ for (const [name, testDescription] of Object.entries(turingMachineTests)) {
       t.assert(!turingMachine.accepts(s));
     }
   });
-
-  // test(`${name}/haltsWhenExpected`, (t) => {
-  //   const turingMachine = new TuringMachine('_', testDescription.description);
-  //   const { transitions, acceptStates } = testDescription.description;
-
-  //   if (acceptStates.length !== 0) {
-  //   }
-  //   console.log(turingMachine);
-  //   console.log(`testDescription: ${testDescription}`);
-  //   t.truthy(turingMachine);
-  // });
 }
