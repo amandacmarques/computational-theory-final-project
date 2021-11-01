@@ -1,3 +1,5 @@
-# final-project
+# Computational Theory Final Project
 
-Turing Machine and Moore Machine
+By: Amanda Marques
+
+Included in this project are formalized representations of Turing Machines and Moore Machines, as well as thorough test data.
